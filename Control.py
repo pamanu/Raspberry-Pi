@@ -53,7 +53,7 @@ while 1:
 
         time.sleep(30)
         if Running('MiGPI2.py') :
-                milinea1 = 'CONTROL A LAS %s        ESTADO: OK'  % (datetime.now().strftime('%H:%M:$
+                milinea1 = 'CONTROL A LAS %s        ESTADO: OK'  % (datetime.now().strftime('%H:%M:%S'))
                 Pantalla(milinea1,"SUPERVISANDO PROCESO...")
         else:
                 Pantalla("ERROR DE SISTEMA","REINICINADO.....")
